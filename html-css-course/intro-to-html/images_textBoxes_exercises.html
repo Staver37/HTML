@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .img1{
+          width: 350px;
+          border-radius: 20px;
+      }
+      .img2{
+          width: 200px;
+          height: 200px;
+          object-fit: cover;
+          border-width: 5px;
+      }
+      .img3{
+          width: 200px;
+          height: 200px;
+          object-fit: cover;
+          object-position: bottom ;
+          border-radius: 100px;
+      }
+      .search_rounded_corner1{
+          width: 200px; 
+          height: 40px;
+          border:solid;
+          border-radius: 5px;
+          border-color: rgb(217, 217, 217);
+          font-size: 20px; 
+          padding-left: 10px;  
+      }
+      .search_rounded_shadow2{
+          width: 400px; 
+          height: 40px;
+          border:solid;
+          border-radius: 20px;
+          border-color: rgb(217, 217, 217);
+          font-size: 15px;
+          margin-left:12px;
+          padding-left: 10px;
+          box-shadow: 5px 5px 10px rgba(0,0,0,0.15); /*umbra*/
+      }
+      .email{
+          margin-bottom: 5px;
+          font-family: arial;
+          color: grey;
+      }
+      .linkedl{
+          width: 200px;
+          height: 20px; 
+          border-color: black;
+      }
+      .inf{
+          font-family: arial;
+          font-size: small;
+          color: grey;
+      }
+      .button{
+          padding-left: 120px;
+          padding-right: 120px;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          color: white;
+          border-radius: 20px;
+          border: none;
+          background-color: rgba(23, 92, 166, 0.954);
+      }
+      .img4{
+          width: 50px;
+          height: 50px;
+          vertical-align: middle;
+          border-radius: 25px;
+          object-fit: cover;
+      }
+      .What_hapening{
+          vertical-align: middle;
+          text-align: center;
+          font-size: 20px;
+          border: none;
+          color: grey;
+      }
+      .Tweet{
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          background-color: rgb(55, 128, 176);
+          color: white;
+          border-radius: 30px;
+          border: none;
+          font-size: 15px;
+          font-weight: bold;
+          margin-left: 90px;
+      }
+      .inp1,
+      .inp2{
+          margin-bottom: 5px;
+          display: block;
+          font-size: 15px;
+          border: 1px solid black ; 
+      }
+      .survey{               
+            width: 190px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 20px;
+      }
+      .survey-yes,
+      .survey-no{
+          display: inline-block;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          padding-left: 12px;
+          padding-right: 12px;
+      }
+      
+
+      .google {
+          width: 200px;
+          height: 100px;
+          object-position: center;
+          object-fit: contain;
+          display: block;
+          margin-bottom: 0px;
+          margin-left: auto;
+          margin-right: auto;
+          }
+      .google-search{
+          width: 400px; 
+          height: 40px;
+          border:solid;
+          border-radius: 20px;
+          border-color: rgb(217, 217, 217);
+          font-size: 15px;
+          box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+          padding-left: 20px;
+          display: block;     /*center the element*/ 
+          margin-left: auto;  /*center the element*/
+          margin-right: auto; /*center the element*/
+      }
+
+      .Firstname,
+      .Surname,
+      .email1{
+          border: 1px solid rgba(71, 70, 70, 0.598) ;
+          display: inline-block;
+          border-radius: 4px;
+          font-size: medium;
+          width: 100;
+          padding-right: 10px;
+          padding-top: 7px;
+          padding-bottom: 7px;
+          padding-left: 10px;
+          margin-bottom: 10px;
+      }
+      .email1{
+          display: block;
+          padding-right: 205px;
+      }
+      .Sign-Up{
+          background-color: blue;
+          border: none;
+          border-radius: 8px;
+          color: white;
+          padding-left: 170px;
+          padding-right:170px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+      }
+      .ride-text{
+          font-family: arial;
+          font-size: 25px;
+          margin-bottom: 20px;
+          margin-top: 10px;
+      }
+      .pickup-location,
+      .enter-destination{
+          background-color: rgb(244, 244, 244);
+          border-radius: 8px;
+          border: none;
+          display: block;
+          margin-bottom: 5px;
+          padding-left: 10px;
+          padding-right: 100px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+      }
+      .Request-now,
+      .Schedule-for-later{
+          border: none;
+          background-color: black;
+          color: white;
+          padding-left: 10px;
+          padding-right: 10px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          margin-top: 20px;
+      }
+      .Schedule-for-later{
+          background-color: rgb(236, 236, 236);
+          color: rgb(4, 4, 4);
+      }
+    </style>
+  </head>
+  <body>
+    <img class="img1" src="styles/img.jpeg" alt="">
+    <img class="img2" src="styles/img.jpeg" alt="">
+    <img class="img3" src="styles/img.jpeg" alt="">
+    <hr>
+    <input class="search_rounded_corner1" type="text" placeholder="Search">
+    <input class="search_rounded_shadow2" type="text" placeholder="Search Google or type a URL">
+    <hr>
+    <p class="email">Email</p>
+    <input class="linkedl" type="text">
+    <p class="inf">By clicking Agree & Join, you agree to the Privacy Policy</p>
+    <button class="button">Agree & Join</button>
+    <hr>
+    <img class="img4" src="styles/img.jpeg" alt="">
+    <input class="What_hapening" type="text" placeholder="What's happening?">
+    <button class="Tweet">Tweet</button>
+    <hr>
+    <input class="inp1" type="text" placeholder="Name" >
+    <input class="inp2" type="text" placeholder="Email">
+    <hr>
+    <p class="survey">
+        Thanks for Chating with our customer suport. Would you like to take our quick survey?
+    </p>
+    <button class="survey-yes">
+        Yes
+    </button>
+    <button class="survey-no">
+        No
+    </button>
+    <hr>
+    <img class="google" src="styles/Google.png" alt="">
+    <input class="google-search" type="text" placeholder="Search Google or type a URL">
+    <hr>
+    <input class="Firstname" type="text" placeholder="First name">
+    <input class="Surname" type="text" placeholder="Surname name">
+    <input class="email1" type="text" placeholder="Email">
+    <button class="Sign-Up">Sign Up</button>
+    <hr>
+    <p class="ride-text">Request a ride now</p>
+    <input class="pickup-location"  type="text" placeholder="Enter pickup location ">
+    <input class="enter-destination" type="text" placeholder="Enter destination ">
+    <button class="Request-now" >Request now</button>
+    <button class="Schedule-for-later">Schedule for later</button>
+    <hr>
+  </body>
+</html>
