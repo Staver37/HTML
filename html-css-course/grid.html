@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grid Practice</title>
+    <style>
+      .images-grid{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        column-gap: 16px;
+        background-color: lightblue;
+      }
+      .img6{
+        object-fit: cover;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+      }
+      .img2{
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body style="padding-bottom: 1000px;">
+    <div style="
+      display: grid;                      /* <--- create grid*/
+      grid-template-columns:100px 100px;  /* <--- setup grid  parameters*/
+      ">
+      <div style="background-color: lightblue">div 1</div>
+      <div style="background-color: lightpink">div 2 <p>text</p></div>
+      
+    </div> 
+
+    <div style="
+      margin-top: 30px;
+      display: grid;                      /* <--- create grid*/
+      grid-template-columns:100px 100px 200px;  /* <--- setup grid parameters for each , div */
+      ">
+      <div style="background-color: lightblue">100px</div>
+      <div style="background-color: lightpink">100px <p>text</p></div>
+      <div style="background-color: lightblue">200px</div>
+      <div style="background-color: lightpink">100px</div>
+    </div> 
+
+      
+    <div style="
+      margin-top: 30px;
+      display: grid;                      /* <--- create grid*/
+      grid-template-columns:100px 1fr;   /* <---  1fr = free-space take all remaning spaces at row */
+      ">
+      <div style="background-color: lightblue">100px</div>
+      <div style="background-color: lightpink">1fr </div>
+    </div> 
+
+    <div style="
+      margin-top: 30px;
+      display: grid;                      /* <--- create grid*/
+      grid-template-columns:100px 1fr 2fr ;  /* <---  2fr = take- two times more space than 1fr  */
+      ">
+      <div style="background-color: lightblue">100px</div>
+      <div style="background-color: lightpink">1fr </div>
+      <div style="background-color: lightblue">2fr</div>
+    </div> 
+
+
+    <div style="
+        margin-top: 30px;
+        display: grid;                         /* <--- create grid */
+        grid-template-columns:100px 1fr 2fr 3fr ;  /* <---  3fr = take - tree times more space than 1fr  */
+        ">
+      <div style="background-color: lightblue">100px</div>
+      <div style="background-color: lightpink">1fr </div>
+      <div style="background-color: lightblue">2fr</div>
+      <div style="background-color: lightpink">3fr </div>
+    </div> 
+   
+
+    <!-- create 3equal colomns  -->
+    <div style="
+        margin-top: 30px;
+        display: grid;                         /* <--- create grid */
+        grid-template-columns: 1fr 1fr 1fr ;  /* <--- create 3 equal colomns  */
+        column-gap: 20px; /*<-- spaces betwen columns */
+        row-gap: 40px;    /*<-- spaces betwen rows */
+        ">
+      <div style="background-color: lightblue; height:200px">1fr</div>
+      <div style="background-color: lightpink; height:200px">1fr </div>
+      <div style="background-color: lightblue; height:200px">1fr</div>
+      <div style="background-color: lightpink; height:200px">1fr </div>
+      <div style="background-color: lightblue; height:200px">1fr</div>
+      <div style="background-color: lightpink; height:200px">1fr </div>
+    </div> 
+    <hr>
+    <h2>Self practice grid</h2>
+    <div style="
+       display: grid;
+       grid-template-columns: 200px 75px;">
+      <div style="background-color: lightblue;">200px</div>
+      <div style="background-color: lightpink;"> 75px</div>
+    </div>
+
+    <div style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;">
+      <div style="background-color: lightblue;">50px</div>
+      <div style="background-color: lightpink;"> 1fr</div>
+      <div style="background-color: lightblue;">75px</div>
+    </div>
+
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr ;
+      column-gap: 20px;
+      row-gap: 10px;">
+      
+      <div style="background-color: lightpink;"> col1</div>
+      <div style="background-color: lightpink;"> col2</div>
+      <div style="background-color: lightpink;"> col3</div>
+      <div style="background-color: lightpink;"> col4</div>
+      <div style="background-color: lightpink;"> col1</div>
+      <div style="background-color: lightpink;"> col2</div>
+      <div style="background-color: lightpink;"> col3</div>
+      <div style="background-color: lightpink;"> col4</div>
+    </div>
+    <hr>
+
+    <div class="images-grid">
+      
+      <div class="tree-box-div">
+        <div class="img-div">
+          <img class="img2" src="intro-to-html/styles/images/thumbnail-3.jpeg" alt="">
+        </div>
+        <div class="text-div">
+          <p class="name">
+              Oliver
+          </p>
+          <div class="auth-pick_status">
+            <img class="img6" src="intro-to-html/styles/images/thumbnail-3.jpeg" alt="">        
+            <p class="friends-status1">
+              2 mutual friends
+            </p>
+          </div>
+        </div>
+          <button class="add-friend-button">
+              Add Friend
+          </button>
+      </div>
+
+      <div class="tree-box-div">
+        <div class="img-div">
+          <img class="img2" src="intro-to-html/styles/images/thumbnail-4.jpeg" alt="">
+        </div>
+        <div class="text-div">
+          <p class="name">
+            Mimi
+          </p>
+          <div class="auth-pick_status">
+            <img class="img6" src="intro-to-html/styles/images/thumbnail-4.jpeg" alt="">        
+            <p class="friends-status1">
+              3 mutual friends
+            </p>
+          </div>
+        </div>
+          <button class="add-friend-button">
+              Add Friend
+          </button>
+      </div>
+
+      <div class="tree-box-div">
+        <div class="img-div">
+          <img class="img2" src="intro-to-html/styles/images/thumbnail-5.jpeg" alt="">
+        </div>
+        <div class="text-div">
+          <p class="name">
+            Rex
+          </p>
+          <div class="auth-pick_status">
+            <img class="img6" src="intro-to-html/styles/images/thumbnail-5.jpeg" alt="">        
+            <p class="friends-status1">
+              4 mutual friends
+            </p>
+          </div>
+        </div>
+          <button class="add-friend-button">
+              Add Friend
+          </button>
+      </div>
+
+    </div>  
+  </body>
+</html>
