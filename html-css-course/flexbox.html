@@ -1,0 +1,630 @@
+
+<!-- Grid = rigid layout -->
+<!-- Flexbox = flexible layout -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Flexbox Practice</title>
+  </head>
+
+  <body style="padding-bottom: 1000px;">
+    <!-- FlexBox Intro -->
+    <div style="
+                display: flex;
+                flex-direction: row;">
+      <div style="background-color:lightblue">div 1 </div>
+
+      <div style="background-color:lightpink">div2
+        <p>text1</p> 
+        <p>text2</p>
+      </div>
+    </div>
+<hr>   
+ <!--Flex1  -->
+    <div style="
+                margin-top: 30px;
+                display: flex;  
+                flex-direction: row;">   <!-- create Flexbox and show direction -->
+      <div style="
+                  background-color:lightblue;
+                  width: 100px;
+                  ">100px </div>
+      <div style="background-color:lightpink;
+                  flex: 1;">flex 1</div>   <!-- equvalent with 1fr  in grid-->
+      </div>
+<hr>
+<!-- Flex1, Flex2 -->
+    <div style="
+                margin-top: 30px;
+                display: flex;
+                flex-direction: row;">  
+      <div style="
+                  background-color:lightblue;
+                  width: 100px;
+                  ">100px </div>
+      <div style="background-color:lightpink;
+                  flex: 1;">flex: 1</div>
+      
+      <div style="
+      background-color:lightblue;
+      flex: 2;
+      ">flex: 2 </div> <!--  flex: 2; equvalent with 2fr in grid-->
+    </div>    
+<hr>
+      <div style="
+                  margin-top: 30px;
+                  height: 70px;
+                  border-width: 1px;
+                  border-style: solid ;
+                  border-color: gray;
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: center;">   <!-- <---- pozition content  start, center, end (align orizontali)-->
+                    
+      <div style="
+                  background-color:lightblue;
+                  width: 100px;
+                  ">100px </div>
+      <div style="
+                  background-color:lightpink;
+                  width: 100px;">100px</div>
+
+      <div style="
+                  background-color:lightblue;
+                  width: 100px;
+      ">100px;</div> <!--  flex: 2; equvalent with 2fr in grid-->
+      </div>    
+<hr>
+      <div style="
+                  margin-top: 30px;
+                  height: 70px;
+                  border-width: 1px;
+                  border-style: solid ;
+                  border-color: gray;
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-between;">   <!-- adding equal spaces betwin elements -->
+                  
+                    
+      <div style="
+                  background-color:lightblue;
+                  width: 100px;
+                  ">100px </div>
+      <div style="
+                  background-color:lightpink;
+                  width: 100px;">100px</div>
+
+      <div style="
+                  background-color:lightblue;
+                  width: 100px;
+      ">100px;</div> <!--  flex: 2; equvalent with 2fr in grid-->
+      </div>  
+<hr>
+
+
+      <div style="
+                  margin-top: 30px;
+                  height: 70px;
+                  border-width: 1px;
+                  border-style: solid ;
+                  border-color: gray;
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-between;
+                  align-items: center;">   <!-- align elements  start(top), stretch (whole box),center, end(botom (align verticali))-->
+                  
+                    
+      <div style="
+                  background-color:lightblue;
+                  width: 100px;
+                  ">100px </div>
+      <div style="
+                  background-color:lightpink;
+                  width: 100px;">100px</div>
+
+      <div style="
+                  background-color:lightblue;
+                  width: 100px;
+      ">100px;</div> <!--  flex: 2; equvalent with 2fr in grid-->
+      </div>  
+
+
+    <hr>
+     <h1><u> Self practice</u></h1> 
+    <div style="
+                  display: flex;
+                  flex-direction: row; ">
+      <div style="background-color: lightblue;
+                  width: 200px;">200px - lesson 12a</div>
+      <div style="background-color: lightpink;
+                  width: 75px;">75px</div>
+    </div>
+    <hr>
+    <div style="
+                display: flex;
+                flex-direction: row; ">
+      <div style="background-color: lightblue;
+          width: 50px;">50px</div>
+      <div style="background-color: lightpink;
+          flex: 1;">Flex 1 - lesson 12b   </div>
+      <div style="background-color: lightblue;
+          width: 75px;">75px</div>    
+    </div>
+    <hr>
+    <hr>
+    <div style="
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between; ">
+      <div style="background-color: lightpink;
+          width: 150px;">150px - lesson 12c</div>
+      <div style="background-color: lightpink;
+          width: 150px;">150px</div>
+      <div style="background-color: lightpink;
+          width: 150px;">150px</div>
+      <div style="background-color: lightpink;
+          width: 150px;">150px</div>
+    </div>
+    <hr>
+    <hr>
+    <div style="
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between; 
+                border-width: 1px;
+                border-style: solid ;
+                border-color: gray;
+                height: 50px;
+                align-items: center;">   <!-- align elements  start(top), stretch (whole box),center, end(botom)-->
+
+                
+      <div style="background-color: lightpink;
+          width: 150px;">150px - lesson 12d</div>
+      <div style="background-color: lightpink;
+          width: 150px;">150px</div>
+          
+    </div>
+    <hr>
+    <hr>
+    leson 12e
+
+  <div style="
+              margin-left: 10px;
+              margin-right: 10px;
+              border-width: 1px;
+              border-radius: 8px;
+              border-style: solid ;
+              border-color: gray;">
+
+    <div style="
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between; 
+
+                height: 50px;
+                align-items: center;">   <!-- align elements  start(top), stretch (whole box),center, end(botom)-->
+          <div style=" 
+                      margin-left: 20px;
+                      width: 150px;">Home</div>
+          <div style="background-color: rgb(6, 44, 88);
+                      flex: 1;"></div>
+          <div style="background-color: rgb(86, 76, 229);
+                      width: 45px;
+                      color: white;
+                      text-align: center;
+                      margin-right: 20px;
+                      border-radius: 20px;">14</div>
+    </div>
+    <div style="
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between; 
+                margin-top: 0px;
+                height: 50px;
+                align-items: center;">   <!-- align elements  start(top), stretch (whole box),center, end(botom)-->
+          <div style=" 
+                      margin-left: 20px;
+                      width: 150px;">Notification</div>
+          <div style="background-color: rgb(6, 44, 88);
+                      flex: 1;"></div>
+          <div style="background-color: rgb(86, 76, 229);
+                      width: 30px;
+                      color: white;
+                      text-align: center;
+                      margin-right: 20px;
+                      margin-bottom: 0px;
+                      border-radius: 20px;">3</div>
+    </div>
+    <div style="
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between; 
+                height: 50px;
+                align-items: center;">   <!-- align elements  start(top), stretch (whole box),center, end(botom)-->
+            <div style=" 
+                      margin-left: 20px;
+                      width: 150px;">Mesages</div>
+            <div style="background-color: rgb(6, 44, 88);
+                      flex: 1;"></div>
+            <div style="background-color: rgb(86, 76, 229);
+                      width: 30px;
+                      color: white;
+                      text-align: center;
+                      margin-right: 20px;
+                      border-radius: 20px;">3</div>
+      </div>
+  </div>    
+<hr>
+
+<div style="display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 40px;">
+            
+            <div style=" width: 50px;">
+             
+              <img style="width: 50px;
+                          height: 50px;
+                          border-radius: 100%;
+                          " src="intro-to-html/styles/images/thumbnail-5.jpg" alt="">        
+            </div>
+            <div style="width: 500px;
+                        font-family: arial;
+                        margin-left: 10px;">
+              <p style="font-weight: bold;
+                         margin-bottom: 5px;">Oliver</p>
+              <p style="margin-top: 0px;
+                        margin-bottom:5px;
+                        color: gray;">the dog</p>
+              <p style="margin-top: 0px;
+              color: gray;">Popular</p>
+            </div>
+
+            <div style="width: 500px;">
+              <button style=" border: none;
+                              background-color: rgb(148, 165, 229);
+                              color: white;
+                              padding-left: 10px;
+                              padding-right: 10px;
+                              padding-top: 5px;
+                              padding-bottom: 5px;
+                              border-radius: 4px;">Follow</button>
+            </div>
+</div>
+
+<div style="display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 40px;">
+            
+            <div style=" width: 50px;">
+             
+              <img style="width: 50px;
+                          height: 50px;
+                          border-radius: 100%;
+                          " src="intro-to-html/styles/images/thumbnail-4.jpg" alt="">        
+            </div>
+            <div style="width: 500px;
+                        font-family: arial;
+                        margin-left: 10px;">
+              <p style="font-weight: bold;
+                         margin-bottom: 5px;">Mimi</p>
+              <p style="margin-top: 0px;
+                        margin-bottom:5px;
+                        color: gray;">slipy dog</p>
+              <p style="margin-top: 0px;
+              color: gray;">Popular</p>
+            </div>
+
+            <div style="width: 500px;">
+              <button style=" border: none;
+                              background-color: rgb(148, 165, 229);
+                              color: white;
+                              padding-left: 10px;
+                              padding-right: 10px;
+                              padding-top: 5px;
+                              padding-bottom: 5px;
+                              border-radius: 4px;">Follow</button>
+            </div>
+</div>
+<div style="display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 40px;">
+            
+            <div style=" width: 50px;">
+              <img style="width: 50px;
+                          height: 50px;
+                          border-radius: 100%;
+                          " src="intro-to-html/styles/images/thumbnail-3.jpg" alt="">        
+            </div>
+            <div style="width: 500px;
+                        font-family: arial;
+                        margin-left: 10px;">
+              <p style="font-weight: bold;
+                         margin-bottom: 5px;">Rex</p>
+              <p style="margin-top: 0px;
+                        margin-bottom:5px;
+                        color: gray;">Hapy dog</p>
+              <p style="margin-top: 0px;
+              color: gray;">Popular</p>
+            </div>
+
+            <div style="width: 500px;">
+              <button style=" border: none;
+                              background-color: rgb(148, 165, 229);
+                              color: white;
+                              padding-left: 10px;
+                              padding-right: 10px;
+                              padding-top: 5px;
+                              padding-bottom: 5px;
+                              border-radius: 4px;">Follow</button>
+            </div>
+</div>
+<div style="display: flex;
+            flex-direction: row;
+            background-color: rgb(148, 107, 187);
+            height: 70px;
+            align-items: center;
+            font-family: arial;">
+            <div style="width: 70px;
+                        color: white;
+                        margin-left: 20px;">Home</div>
+            <div style="margin-left: 30px;
+                        flex: 1;">
+              <input style="border: none;
+                            height: 30px;
+                            max-width: 500px;
+                            min-width: 70px; 
+                            width: 60%;
+                            border-radius: 20px;
+                            padding-left: 20px;"     type="text" placeholder="search">
+            </div>
+            <div style= "width: 400px;
+                        margin: right 100px;">
+              <button style=" color: white;
+                              padding-left: 10px;
+                              padding-right: 10px;
+                              padding-top: 5px;
+                              padding-bottom: 5px;
+                              background-color: rgb(148, 107, 187);
+                              border: 1px solid rgba(250, 250, 250, 0.598);">
+                Download
+              </button>
+            </div>
+</div>
+<hr>
+<p>Lesson 13 Nested Flexbox</p>
+
+<div style="  display: flex;
+              flex-direction: row;
+              height: 50px;">
+              
+  <div style="display: flex;              
+              width: 100px;
+              background-color: lightpink;
+              "><p style="background-color: black;
+                          color: white;
+                          margin-left: 30px;">
+                item1
+              </p></div>
+  <div style="width: 200px;
+              background-color: lightblue;"></div>
+</div>
+<hr>
+
+<div style="  display: flex;
+              flex-direction: row;
+              height: 50px;">
+              
+  <div style="background-color: lightpink; 
+              width: 100px;"></div>
+  <div style="display: flex;
+              width: 200px;
+              background-color: lightblue;">
+            <div>
+              <p style="margin-top:    0px;
+                        margin-bottom: 0px;">row1</p>
+             
+             <p style="margin-top: 0px;
+                        background-color: black;
+                        color: white;">row2
+              </p>
+            </div>
+              <p style="margin-left: 120px;
+                        background-color: black;
+                        color: white;">
+                        row2
+              </p>
+  </div>
+</div>
+<hr>
+
+
+
+<div style="border: 1px solid rgb(188, 188, 188);
+            box-shadow: 5px 5px 10px rgba(54, 52, 52, 0.15); /*umbra*/
+            width: 400px;
+            font-family: arial;">
+              <p style="margin-left: 10px;
+                        margin-bottom: 0px;
+                        margin-top: 5px;
+                        font-size: 15px;
+                        color: grey;">ALL INBOXES</p>
+  <div style=" width: 500px; 
+              display: flex;
+              flex-direction:row;
+               margin-top: 0px;">
+    <div style="display:flex; align-items: center;">
+      <img  style="width: 40px; height: 40px; margin-left: 10px;
+      border-radius: 20px;" src="intro-to-html/styles/images/thumbnail-3.jpg">
+    </div>
+    <div>
+          <p style="margin-bottom: 0px;
+                    font-weight: bold;
+                    margin-left: 10px;">
+            Chewy Promotions 
+          </p>
+          <p style="margin-bottom: 0px;
+                    font-weight: bold;
+                    margin-left: 10px;
+                    margin-top: 0px;"> 
+                    Bigghest sales of the year! 
+          </p>
+          <p style="margin-top: 0px;
+                    color: grey;
+                    font-size: 15px;
+                    margin-left: 10px;">Hey there!We're writing to tell you obout our...</p>
+      </div>    
+    <p style="margin-left: -20px;
+              font-size: 15px;
+              color: grey;">4:58PM
+    </p>
+  </div>
+</div>
+
+
+
+
+<hr>
+<!-- 1 -->
+
+<div style="border: 1px solid rgb(188, 188, 188);
+            box-shadow: 5px 5px 10px rgba(54, 52, 52, 0.15); /*umbra*/
+            width: 400px;
+            font-family: arial;">
+              <p style="margin-left: 10px;
+                        margin-bottom: 0px;
+                        margin-top: 5px;
+                        font-size: 15px;
+                        color: grey;">ALL INBOXES</p>
+                        <!-- 1 -->
+  <div style=" display: flex;
+              flex-direction:row;
+               margin-top: 0px;">
+    <div style="display:flex; align-items: center;">
+      <img  style="width: 40px; height: 40px; margin-left: 10px;
+      border-radius: 20px;" src="intro-to-html/styles/images/thumbnail-3.jpg">
+    </div>
+    <div>
+          <p style="margin-bottom: 0px;
+                    font-weight: bold;
+                    margin-left: 10px;">
+            Chewy Promotions 
+          </p>
+          <p style="margin-bottom: 0px;
+                    font-weight: bold;
+                    margin-left: 10px;
+                    margin-top: 0px;"> 
+                    Bigghest sales of the year! 
+          </p>
+          <p style="margin-top: 0px;
+                    color: grey;
+                    font-size: 15px;
+                    margin-left: 10px;">
+                    Hey there!We're writing to tell you obout our...
+                  </p>
+      </div>    
+    <p style="margin-left: -20px;
+              font-size: 15px;
+              color: grey;">4:58PM
+    </p>
+  </div>
+  <!-- 2 -->
+    <div style=" display: flex;
+              flex-direction:row;
+               margin-top: 0px;">
+    <div style="display:flex; align-items: center;">
+      <img  style="width: 40px; height: 40px; margin-left: 10px;
+      border-radius: 20px;" src="intro-to-html/styles/images/thumbnail-4.jpg">
+    </div>
+    <div>
+          <p style="margin-bottom: 0px;
+                    font-weight: bold;
+                    margin-left: 10px;">
+            Best Buy 
+          </p>
+          <p style="margin-bottom: 0px;
+                    font-weight: bold;
+                    margin-left: 10px;
+                    margin-top: 0px;"> 
+                    Your Best Buy  eReceipt 
+          </p>
+          <p style="margin-top: 0px;
+                    color: grey;
+                    font-size: 15px;
+                    margin-left: 10px;">
+                   Thank you for shoping at BestBuy here is...
+                  </p>
+      </div>    
+    <p style="margin-left: -20px;
+              font-size: 15px;
+              color: grey;">12:32PM
+    </p>
+  </div>
+  <!--  -->
+    <div style=" display: flex;
+              flex-direction:row;
+               margin-top: 0px;">
+    <div style="display:flex; align-items: center;">
+      <img  style="width: 40px; height: 40px; margin-left: 10px;
+      border-radius: 20px;" src="intro-to-html/styles/images/thumbnail-5.jpg">
+    </div>
+    <div>
+          <p style="margin-bottom: 0px;
+                    font-weight: bold;
+                    margin-left: 10px;">
+            Netflix
+          </p>
+          <p style="margin-bottom: 0px;
+                    font-weight: bold;
+                    margin-left: 10px;
+                    margin-top: 0px;"> 
+                    Here's what's comming soon to Netflix
+          </p>
+          <p style="margin-top: 0px;
+                    color: grey;
+                    font-size: 15px;
+                    margin-left: 10px;">
+                   Brand new and shows, favotites...
+                  </p>
+          </div>    
+        <p style="margin-left: -20px;
+                  font-size: 15px;
+                  color: grey;">9:00AM
+        </p>
+      </div>
+    </div>
+ 
+<hr>
+<!-- 13f  Break down this design into horizontal and vertical layouts -->
+
+    <div>
+        <div style="background-color: lightblue;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;">
+          <img  style="width: 40px; height: 40px; margin-left: 10px; border-radius: 20px;" src="intro-to-html/styles/images/thumbnail-5.jpg">
+          
+          <div style="background-color: rgb(230, 173, 230);
+                      display: flex;">
+                  <p>Supersimple.dev</p><p> @SuperSimpleDev</p>
+                </div> 
+                
+        </div>
+        
+        <div style="
+                    background-color: lightgray;">
+                    What is backend web delvelopment? A complete overview. New video is up!
+          </div>
+
+    </div>
+
+
+      <hr> 
+      
+      
+    
+  </body>
+  </html>

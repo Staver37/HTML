@@ -1,0 +1,65 @@
+.general-tehnique{
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(96,96,96);
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 20px;
+    width: 180px;
+}
+
+p{                      /*   <--- CSS Specificity ( class NAME have more priority than <tag> ) */
+    font-family: Roboto;/*<-- aplied for all paragraph the font-family reduces dublicates*/
+    margin-top: 0;
+    margin-bottom:0;
+}
+.video-title{
+         /* <--  font family */
+        font-weight: bold;  /*<-- font-weight*/
+        font-size: 18px;
+        width: 280px; /*     <--placed on page*/
+        line-height: 24px;/* <-- spaces betwin text lines */
+        margin-bottom: 5px;
+        /* font-style: italic; 
+        text-align: center; */
+}
+.video-stats{
+    font-size: 14px;
+    color: rgb(96,96,96);
+    margin-bottom: 20;
+}
+.video-author{
+    font-size: 14px;
+    color: rgb(96,96,96);
+    margin-bottom: 20;
+}
+.video-discription{
+    font-size: 14px;
+    color: rgb(96,96,96);
+    width: 280px;
+    line-height: 22px;
+    margin-bottom: 50px;
+}
+.apple-text{
+    font-size: 15px;
+    background-color: rgb(277,65,64);
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;      
+}
+.shop-link{
+    cursor: pointer;
+}
+.shop-link:hover{
+    text-decoration: underline; 
+}
+
+.span-exemple{
+    color: red;
+    margin-left: 12px;
+}
+.span-exemple:hover{
+    text-decoration: underline;
+}
+

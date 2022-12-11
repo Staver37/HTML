@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Position Practice absolute</title>
+    </head>
+    <body style=" 
+        height: 3000px;
+        padding-top: 60px;
+        padding-left: 80px;
+        ">
+
+        <div style="
+            background-color: black;
+            color: white;
+            position: fixed; /*<-this proprieti  fixed element */
+            top: 0px;  /*<- this propriety to be fixed set position*/
+            left: 0px;
+            right: 0px;
+            height: 50px;
+            z-index: 1; /* <--indicated wich element wiil be in the front */
+
+            ">header
+        </div>
+
+        <div style="
+            background-color: green;
+            color: white;
+            position: fixed; /* <----- placed in the BROWSER WINDOW (DO NOT SKROL THR CONTEXT) */
+            left: 0;
+            bottom: 0;
+            top: 50px;
+            width: 72px; 
+            ">
+            sidebar
+            <div style="
+                position: absolute; /* <--- if put absolute inside to fixed 'absolute' take relaitive the fixex box not to the page*/
+                background-color: rgb(251, 0, 255);
+                color: white;
+                right: 0px;
+                top: 0px;
+                ">
+                X
+            </div>
+        </div>
+        
+        <div style="
+            position: absolute; /* <----- placed on the PAGE (THE CONTEXT WILL SKROLING) */
+            background-color: red;
+            color: white;
+            right: 10px;
+            top: 60px;
+            ">
+            absolute
+        </div>
+
+
+        <div style="
+            background-color: lightblue;
+            height: 200px;
+            width: 200px;
+            ">div1</div>
+        <div style="
+            background-color: lightpink;
+            height: 200px;
+            width: 200px;
+            position: relative;
+            ">
+            div2
+
+            <div style="
+                position: absolute; /* <-- in placed 'absolute' inside of 'relative' absolute  takes position inside of relative */
+                background-color: black;
+                color: white;
+                right: 10px;
+                bottom: 10px;
+                ">
+                5:00
+            </div>
+
+
+
+        </div>
+
+    </body>
+</html>

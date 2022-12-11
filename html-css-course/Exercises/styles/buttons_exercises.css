@@ -1,0 +1,188 @@
+
+.Uber{
+    background-color: black;
+    border: none;
+    color: white;
+    height: 30px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: opacity 0.12s;
+  }
+  .Uber:hover{
+    opacity: 0.8;
+  }
+  .Amazone{
+    background-color: rgb(255, 216, 0);
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: opacity 0.8s;
+  }
+  .Amazone:hover{
+    background-color:  rgb(255, 240,0);
+  }
+  
+  .GhitHub{
+    background-color: rgb(49, 163, 82);
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .Bootstrap_1{
+    background-color: rgb(121, 87, 125);
+    border: none;
+    border-radius: 3px;
+    width: 90;
+    height: 25;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    transition:   background-color 0,8;
+  ;
+  }
+  .Bootstrap_1:hover{
+    background-color: rgb(67, 17, 73);
+  }
+  .Bootstrap_2{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(79, 79, 79);
+    border-radius: 3px;
+    border-width: 1px;
+    width: 90;
+    height: 25;
+    color: rgb(79, 79, 79);
+    font-size: 10px;
+    cursor: pointer;
+    transition: background-color 0.8s, color 0.8s ;
+  }
+  .Bootstrap_2:hover{
+    background-color: rgb(79, 79, 79);
+    color: white;
+  }
+  .Linkedl_1{
+    background-color: rgb(10, 102, 194);
+    border-radius: 20px;
+    border: none;
+    font-size: 13px;
+    color: white;
+    height: 30px;
+    width: 190px;
+    cursor: pointer;
+    transition: background-color 0.8s;
+  }
+  .Linkedl_1:hover{
+    background-color: rgb(4, 50, 97) ;
+  }
+  .Linkedl_2{
+    background-color: rgb(251, 251, 251);
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: rgb(10, 102, 194);
+    font-size: 13px;
+    color: rgb(10, 102, 194);
+    height: 30px;
+    width: 65px;
+    cursor: pointer;
+    transition:background-color 0.8s;
+  }
+  .Linkedl_2:hover{
+    background-color: rgb(178, 203, 229);
+  }
+  
+  .pag{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .stretch{
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 20;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: 2s;
+    cursor: pointer;
+  }
+  .stretch:hover{
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .Click3d{
+    background-color: green;
+    border:none;
+    color: white;
+    font-size: 20;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.50);
+    cursor: pointer;
+  }
+  .Click3d:active{
+   margin-top: 10px;
+   margin-left: 10;
+  }
+  
+  .one{
+    background-color: green;
+    border: none;
+    color: white;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-right: 20px;
+    transition: padding-left 1s;
+    transition: padding-right;
+  }
+  .one:hover{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .two{
+    background-color: green;
+    border: none;
+    color: white;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .two:hover{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .three{
+    background-color: green;
+    border: none;
+    color: white;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .three:hover{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
