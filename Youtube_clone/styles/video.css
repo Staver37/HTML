@@ -1,0 +1,132 @@
+.thumbnail{
+    width: 100%;
+  }
+.video-link{
+  text-decoration: none;
+  color: black;
+}
+
+.video-title{
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px; /* spaces betwin text lines*/
+    margin-bottom: 10spx;
+    text-decoration: none;
+  }
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+  }
+.profile-picture{
+    width: 36px;
+    border-radius: 40px;
+    position: relative;
+  }
+.thumbnail-row{
+    margin-bottom: 8px;
+    position: relative;
+  }
+.video-author,
+.video-stats{
+    font-size: 12px;
+    color: rgb(96,96,96);
+  }
+.video-author{
+    margin-bottom: 4px;
+  }
+
+.video-grid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+  }
+
+        /* Responsive Design  */
+
+/* Media Query  ----> this wil activate if will reach the size indicated   */ 
+@media(max-width: 750px /* screen size */){              /* < - giving 2 video per row to the grid if is les 750px*/
+    .video-grid{                    
+      grid-template-columns: 1fr 1fr; 
+    }
+  }
+  
+@media(min-width: 1000px){              /* < - giving 4 video per row to the grid if is more 1000px*/
+    .video-grid{                    
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+@media(min-width: 2000px){              /* < - giving 5 video per row to the grid if is more 2000px*/
+    .video-grid{                    
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+  }  
+
+
+  /* combine the 2 prev exemple max and nim */
+
+@media(min-width: 750px) and (max-width:999px){             
+    .video-grid{                    
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  
+/* CSS Sorthland Properties */
+.video-time{
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px  ; /* first is top secound is right third is bootom fourth is left */
+  border-radius: 2px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 8px;
+}
+
+
+  /* .video-time{
+    font-family: Roboto,arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 8px;
+  } */
+
+.video-tooltip-container{
+  transition: 1s;
+  border-radius: 8PX;
+  margin-top: 40px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(234, 234, 234);
+  width: 180px;
+  height: 150;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,1);
+  opacity: 0;
+  cursor: pointer;
+}
+.profile-picture_tooltip{
+  width: 35px;
+  border-radius: 40px;
+  margin-right: 10px;
+}
+.video-tooltip-container:hover {
+  opacity: 1;
+}
+
